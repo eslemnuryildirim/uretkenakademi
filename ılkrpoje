@@ -1,0 +1,92 @@
+using System. Collections;
+using System. Collections.Generic;
+using UnityEngine:
+
+public class denemeiki: MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start ()
+    {
+        int sayi1 = -36
+        int sayi2 = 85
+
+        int secim = 4
+        if(secim == 1)
+        {
+            ButunDeger(sayi1, sayi2);
+        }
+        else if(secim == 2)
+        {
+            IkiyeBolum(sayi1, sayi2);
+        }
+        else if(secim == 3)
+        {
+            UceBolum(sayi1, sayi2);
+        }
+        else if(secim == 4)
+        {
+            DordeBolum(sayi1, sayi2);
+        }
+        else if(secim == 5)
+        {
+            BeseBolum(sayi1, sayi2);
+        }
+
+    }
+    void ButunDeger (int sayi1, int sayi2)
+    {
+        for (int i=sayi1; i <= sayi2; i++)
+      {
+          print (i);
+      }
+
+    }
+    void IkiyeBolum(int sayi1, int sayi2)
+    {
+      for (int 1 = sayil; i <= sayi2; i++)
+      {
+        if(i % 2 == 0)
+        {
+            print(i);
+        }
+      }
+    }
+    void UceBolum(int sayi1, int sayi2)
+    {
+        for(int i=sayi1; i<= sayi2; i++)
+        {
+           if(i % 3 == 0)
+        {
+            print(i);
+        }
+        }
+    }
+    void DordeBolum(int sayi1, int sayi2)
+    {
+        for(int i=sayi1; i<= sayi2; i++)
+        {
+            if(i % 4 == 0)
+        {
+            print(i);
+        }
+        }
+    }
+    void BeseBolum(int sayi1, int sayi2)
+    {
+        for(int i=sayi1; i<= sayi2; i++)
+        {
+            if(i % 5 == 0)
+        {
+            print(i);
+        }
+        }
+    }
+    
+//update is called once per frame
+void Update()
+{
+
+}
+
+
+}
